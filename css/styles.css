@@ -167,10 +167,7 @@ address {
 
 .services-btn {
   min-width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 10px 32px;
   border-radius: 4px;
   margin-left: 248px;
   margin-top: 30px;
@@ -193,16 +190,30 @@ address {
 .services-btn:focus {
 }
 
+.second-section {
+  width: 1600px;
+  height: 290px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-second-section{
+  margin-left: 215px;
+  padding-top: 94px; 
+}
+
 .peculiarities-list{
   display: flex;
   align-items: center;
 }
 
-.peculiarities-list-item:not(:last-child) {
+.peculiarities-list-item:not(:last-child){
   margin-right: 30px;
 }
 
 .peculiarities {
+  width: 270px;
+  height: 16px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -213,6 +224,8 @@ address {
 }
 
 .features {
+  width: 270px;
+  height: 75px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -222,7 +235,22 @@ address {
 
   color: #757575;
 }
+
+.third-section{
+  width: 1600px;
+  height: 532px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-third-section{
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
 .about-us {
+  min-width: 376px;
+  height: 42px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -230,9 +258,34 @@ address {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.about-us-list {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-list-item:not(:last-child) {
+  margin-right: 30px;
+
+}
+
+.fourth-section{
+  width: 1600px;
+  height: 648px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F4FA;
+}
+
+.container-fourth-section{
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .our-team {
+  padding-top: 94px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -241,8 +294,25 @@ address {
 
   color: #212121;
 }
+.our-team-list{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.our-team-list-item {
+  margin-right: 30px;
+  width: 270px;
+  height: 368px;
+  background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 
 .team-members {
+  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -255,6 +325,7 @@ address {
 }
 
 .members-positions {
+  padding-top: 10px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -267,10 +338,22 @@ address {
 }
 
 .footer {
+  width: 1600px;
+  height: 252px;
+  margin-left: auto;
+  margin-right: auto;
   background: #2f303a;
 }
 
+.footer-container{
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-top: 60px;
+}
+
 .logo-footer {
+  width: 145px;
+  height: 31px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
@@ -289,6 +372,14 @@ address {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+.footer-list {
+padding-top: 20px;
+}
+
+.footer-list-item:not(:last-child){
+  padding-bottom: 10px;
 }
 
 .contact-email-footer {
