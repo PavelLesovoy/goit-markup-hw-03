@@ -32,6 +32,15 @@ address {
   text-decoration: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section.third-section{
+  padding-top: 0px;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
 }
@@ -144,7 +153,7 @@ address {
 
 .container-main-section {
   margin-left: 452px;
-  padding-top: 200px;
+  padding-top: 106px;
 
 }
 
@@ -153,6 +162,7 @@ address {
   height: 120px;
   left: 452px;
   top: 280px;
+  margin-bottom: 30px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -172,7 +182,6 @@ address {
   padding: 10px 32px;
   border-radius: 4px;
   margin-left: 248px;
-  margin-top: 30px;
   background-color: #2196f3;
   font-family: "Roboto";
   font-style: normal;
@@ -189,7 +198,9 @@ address {
 }
 
 .services-btn:hover,
-.services-btn:focus {}
+.services-btn:focus {
+
+}
 
 .second-section {
   width: 1600px;
@@ -199,8 +210,8 @@ address {
 }
 
 .container-second-section {
-  margin-left: 215px;
-  padding-top: 94px;
+  margin-left: 200px;
+
 }
 
 .peculiarities-list {
@@ -215,6 +226,7 @@ address {
 .peculiarities {
   width: 270px;
   height: 16px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -239,17 +251,17 @@ address {
 
 .third-section {
   width: 1600px;
-  height: 532px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container-third-section {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .about-us {
+  margin-bottom: 50px;
   min-width: 376px;
   height: 42px;
   font-weight: bold;
@@ -262,7 +274,6 @@ address {
 }
 
 .about-us-list {
-  margin-top: 50px;
   display: flex;
   align-items: center;
 }
@@ -281,12 +292,12 @@ address {
 }
 
 .container-fourth-section {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .our-team {
-  padding-top: 94px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -297,7 +308,6 @@ address {
 }
 
 .our-team-list {
-  margin-top: 50px;
   display: flex;
   align-items: center;
 }
@@ -348,8 +358,8 @@ address {
 }
 
 .footer-container {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding-top: 60px;
 }
 
@@ -425,6 +435,11 @@ address {
   margin-right: auto;
 }
 
+.portfolio-btn-container{
+margin-bottom: 50px;
+margin-left: 480px;
+}
+
 .portfolio-btn-list{
   display: flex;
   align-items: center;
@@ -435,6 +450,7 @@ address {
 }
 
 .portfolio-btn {
+  padding: 6px 22px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -456,17 +472,28 @@ address {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  color: #FFFFFF;
 }
 
-.portfolio-department-conteiner{
-  align-items: center;
+.portfolio-department-container{
 }
 
 .portfolio-department-list{
-margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
+.portfolio-department-list-item{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
 .img-description {
+  padding-left: 24px;
+  padding-top: 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -479,6 +506,8 @@ margin-right: 30px;
 }
 
 .department {
+  padding-left: 24px;
+  padding-top: 8px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
