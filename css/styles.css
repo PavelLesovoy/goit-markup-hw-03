@@ -356,12 +356,13 @@ address {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+
 }
 
 .logo-footer {
